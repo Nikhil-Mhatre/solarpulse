@@ -1,0 +1,23 @@
+{
+  "name": "solarpulse",
+  "private": true,
+  "scripts": {
+    "dev:identity": "pnpm --filter @solarpulse/identity-service dev",
+    "build:identity": "pnpm --filter @solarpulse/identity-service build",
+    "start:identity": "pnpm --filter @solarpulse/identity-service start",
+    "db:generate:identity": "pnpm --filter @solarpulse/identity-service db:generate",
+    "db:migrate:identity": "pnpm --filter @solarpulse/identity-service db:migrate",
+    "db:seed:identity": "pnpm --filter @solarpulse/identity-service db:seed",
+    "lint": "pnpm -r lint",
+    "lint:fix": "pnpm -r lint:fix",
+    "format": "pnpm -r format",
+    "format:check": "pnpm -r format:check",
+    "typecheck": "pnpm -r typecheck",
+    "lint:identity": "pnpm --filter @solarpulse/identity-service lint",
+    "lint:fix:identity": "pnpm --filter @solarpulse/identity-service lint:fix",
+    "format:identity": "pnpm --filter @solarpulse/identity-service format",
+    "format:check:identity": "pnpm --filter @solarpulse/identity-service format:check",
+    "typecheck:identity": "pnpm --filter @solarpulse/identity-service typecheck",
+    "db:lint:identity": "pnpm --filter @solarpulse/identity-service lint"
+  }
+}
